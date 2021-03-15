@@ -1,0 +1,14 @@
+# Java
+*.class
+
+# Intellij IDEA
+.idea/
+*.iml
+out/
+
+# Gradle
+.gradle/
+build/
+
+# Test
+test/
