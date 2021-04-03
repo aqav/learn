@@ -5,7 +5,7 @@ import java.util.Comparator;
 public class Sorter {
 
     // selection sort as example sorter
-    public static <T> void sort(T[] arr, Comparator<T> comparator){
+    public static <T> void sort(T[] arr, Comparator<T> comparator) {
         // comparator is the strategy
         for (int i = 0; i < arr.length; i++) {
             int min = i;
