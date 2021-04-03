@@ -4,10 +4,11 @@ public class C3_LazySync {
 
     private static C3_LazySync INSTANCE;
 
-    private C3_LazySync(){}
+    private C3_LazySync() {
+    }
 
-    public static synchronized C3_LazySync getInstance(){
-        if(INSTANCE == null){
+    public static synchronized C3_LazySync getInstance() {
+        if (INSTANCE == null) {
             // Inefficient
             INSTANCE = new C3_LazySync();
         }

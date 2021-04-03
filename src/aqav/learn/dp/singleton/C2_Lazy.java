@@ -4,10 +4,11 @@ public class C2_Lazy {
 
     private static C2_Lazy INSTANCE;
 
-    private C2_Lazy(){}
+    private C2_Lazy() {
+    }
 
-    public static C2_Lazy getInstance(){
-        if(INSTANCE == null){
+    public static C2_Lazy getInstance() {
+        if (INSTANCE == null) {
             // multiple thread problem
             INSTANCE = new C2_Lazy();
         }
