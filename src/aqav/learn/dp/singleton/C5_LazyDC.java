@@ -2,7 +2,7 @@ package aqav.learn.dp.singleton;
 
 public class C5_LazyDC {
 
-    private static C5_LazyDC INSTANCE;
+    private static volatile C5_LazyDC INSTANCE;
 
     private C5_LazyDC(){}
 
