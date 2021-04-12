@@ -1,6 +1,6 @@
 package aqav.learn.dp.observer;
 
-public class Mom implements ChildObserver{
+public class Mom implements ChildObserver {
 
     @Override
     public void whenChildWakeUp(WakeUpEvent wakeUp) {

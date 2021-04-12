@@ -1,6 +1,6 @@
 package aqav.learn.dp.composite;
 
-public class LeafNode extends Node{
+public class LeafNode extends Node {
 
     private String name;
 

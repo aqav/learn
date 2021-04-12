@@ -2,7 +2,7 @@ package aqav.learn.dp.observer;
 
 import java.util.Date;
 
-public class WakeUpEvent extends Event<Child>{
+public class WakeUpEvent extends Event<Child> {
 
     private Date timestamp;
     private String location;
@@ -14,7 +14,7 @@ public class WakeUpEvent extends Event<Child>{
     }
 
     @Override
-    public Child getSource(){
+    public Child getSource() {
         return source;
     }
 }

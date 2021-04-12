@@ -15,10 +15,10 @@ public class Child {
         observers.add(new Mom());
     }
 
-    public void wakeUp(){
+    public void wakeUp() {
         WakeUpEvent wakeUp = new WakeUpEvent(new Date(), "bed");
 
-        for (ChildObserver  observer: observers){
+        for (ChildObserver observer : observers) {
             observer.whenChildWakeUp(wakeUp);
         }
     }
